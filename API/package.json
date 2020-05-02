@@ -1,0 +1,28 @@
+{
+  "name": "fullstack-api",
+  "version": "1.0.0",
+  "description": "Backend en MongoDB y express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gnbarzol/FullStackJs.git"
+  },
+  "author": "Gary Barzola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gnbarzol/FullStackJs/issues"
+  },
+  "homepage": "https://github.com/gnbarzol/FullStackJs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
